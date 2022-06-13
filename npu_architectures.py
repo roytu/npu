@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 
-from npu_layers import *
+from npu.npu_layers import *
 from tensorflow.keras import Model, Sequential, Input
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
 from tensorflow.keras.layers import Conv1D, MaxPooling1D

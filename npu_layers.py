@@ -1,7 +1,6 @@
 
 import tensorflow as tf
 
-from npu_utils import *
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.initializers import Zeros, Constant, GlorotUniform
 
